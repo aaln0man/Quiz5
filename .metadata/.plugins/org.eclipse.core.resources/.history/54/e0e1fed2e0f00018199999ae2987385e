@@ -1,0 +1,26 @@
+package UnitTest;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+import main.TicketSeller;
+
+class UnitTest {
+
+	@Test
+	void test() {
+		
+		TicketSeller tc =new TicketSeller();
+		
+		int buyTicket2 = tc.BuyTicket(10);
+		int buyTicket = buyTicket2;
+		assertEquals(buyTicket, 90);
+		assertEquals(tc.BuyTicket(15), 75);
+		assertEquals(tc.BuyTicket(25), 55);
+		assertEquals(tc.BuyTicket(5), 50);
+		assertEquals(tc.BuyTicket(20), 30);
+		assertEquals(tc.BuyTicket(20), 10);	
+		assertEquals(buyTicket, 0);	
+	}
+}

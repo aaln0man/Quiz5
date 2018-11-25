@@ -1,0 +1,16 @@
+1543169420445	Inline local variable 'in'
+1543169428182	Extract local variable 'scanner'
+1543169434733	Inline local variable 'scanner'
+1543169440867	Extract local variable 'scanner'
+1543169464023	Inline local variable 'in'
+1543169507085	Convert local variable 'input' to field
+1543169883609	Inline local variable 'scanner'
+1543169892496	Extract method 'extracted'
+1543169930796	Convert local variable 'i' to field
+1543170088232	Convert local variable 'in' to field
+1543170107507	Convert local variable 'input' to field
+1543170131518	Inline local variable 'in'
+1543170163794	Convert local variable 'i' to field
+1543170248774	Convert local variable 'input' to field
+1543170263950	Inline local variable 'in'
+1543170366874	Convert local variable 'i' to field
